@@ -95,3 +95,27 @@
         text-decoration-color: purple;
     }
 }
+    @media screen and (min-width:480px){
+        .imagehover {
+        height:140px;
+        width: 100px;
+        }
+    }
+    @media screen and (min-width:768px){
+    .imagehover {
+        height:165px;
+        width: 125px;
+    }
+    .imagehover:hover {
+        height: 300px;
+        width: 215px;
+        display:flex;
+        }
+    }
+    @media screen and (min-width:1473px){
+    #left ,
+    #right {
+        display:flex;
+        flex-direction: column;
+        }
+    }
