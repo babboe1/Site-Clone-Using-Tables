@@ -1,0 +1,18 @@
+@media screen and (min-width:320px){
+html ,
+body {
+    padding: 0;
+    margin: 0;
+}
+#grand {
+    width: 100%;
+    display: flex;
+    max-width: 1473px;
+    margin: auto;
+}
+#parent {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+}
