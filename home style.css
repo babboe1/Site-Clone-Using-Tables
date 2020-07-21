@@ -77,4 +77,21 @@
         width: 215px;
         display: none;
     }
+    #left ,
+    #right {
+        display: none;
+    }
+    #bottomnav {
+        text-align: center;
+        line-height: 25px;
+        color: white;
+        background-color: rgb(70, 193, 197);
+        margin: auto;
+        width: 100%;
+        max-width: 1473px;
+    }
+    #bottomnav a:hover {
+        text-decoration: underline;
+        text-decoration-color: purple;
+    }
 }
