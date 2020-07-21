@@ -61,7 +61,20 @@
         text-decoration: underline;
         color: purple;
     }
-    table>td {
-    width: 100%;
+    .greentext:hover {
+        text-decoration: none;
+    }
+    span {
+        color: green;
+    }
+    .imagehover {
+        height:120px;
+        width: 80px;
+        transition: width 0.5s, height 0.5s;
+    }
+    .imagehover:hover {
+        height: 300px;
+        width: 215px;
+        display: none;
     }
 }
