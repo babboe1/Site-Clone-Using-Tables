@@ -25,14 +25,14 @@
         
     }
     #topnav {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    background-color: rgb(46, 44, 44);
-    color: blanchedalmond;
-    line-height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        background-color: rgb(46, 44, 44);
+        color: blanchedalmond;
+        line-height: 50px;
     }
     #topnav a {
-    padding: 16.5px;
+        padding: 16.5px;
     }
     #active {
         background-color: #4caf50;
@@ -46,5 +46,22 @@
         line-height: 22px;
         width: 100%;
         max-width: 800px;
+    }
+    #tab2{
+        width: 100%;
+        max-width: 800px;
+    }
+    table#tab2 a {
+        color: rgb(9, 112, 143);
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+    table#tab2 a:hover {
+        text-decoration: underline;
+        color: purple;
+    }
+    table>td {
+    width: 100%;
     }
 }
