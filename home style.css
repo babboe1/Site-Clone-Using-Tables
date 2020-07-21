@@ -34,4 +34,17 @@
     #topnav a {
     padding: 16.5px;
     }
+    #active {
+        background-color: #4caf50;
+        color: white;
+        padding-right: 20px;
+    }
+    #japan {
+        background-color: rgb(70, 193, 197);
+        text-align: center;
+        color: blanchedalmond;
+        line-height: 22px;
+        width: 100%;
+        max-width: 800px;
+    }
 }
